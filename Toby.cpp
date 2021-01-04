@@ -93,6 +93,7 @@ int main(void)
 	
 	if(first_char==-1) // 이름이 없는 경우 실행 
 	{
+		printf("이름을 설정해주세요: ");
 		name = gets(name_); // 이름 설정 
 		fprintf(data_name,"%s",name); // 파일에 이름 적어넣기
 		level = 1;
